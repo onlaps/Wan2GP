@@ -16,9 +16,9 @@ conda activate wan2gp
 python --version
 
 # 3) PyTorch first (CUDA 12.8 test channel as per your guide)
-echo "🧠 Installing PyTorch 2.7.0 (cu128)..."
+echo "🧠 Installing PyTorch 2.7.0 (cu124)..."
 pip install -q --prefer-binary torch==2.7.0 torchvision torchaudio \
-  --index-url https://download.pytorch.org/whl/test/cu128
+  --index-url https://download.pytorch.org/whl/test/cu124
 
 # 4) Project requirements
 echo "📚 Installing project requirements..."
